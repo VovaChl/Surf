@@ -3,17 +3,43 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Pug</title>
+    <title>Serf</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <main class="main">
+    <header class="header">
       <div class="container">
-        <div class="main__title">Index Page</div>
-        <div class="main__text">
-          <p>Lorem ipsum dolor sit amet, consectetur</p>
+        <div class="header__flex">
+          <div class="header__logo logo"><img class="logo__img" src="img/logo.svg" alt="Serf"><img class="text__logo" src="img/text-logo.svg" alt="Serf"></div>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="nav-list__item"><a class="nav-list__item-link" href="catalog.html">Каталог</a></li>
+              <li class="nav-list__item"><a class="nav-list__item-link" href="about.html"> О нас</a></li>
+              <li class="nav-list__item"><a class="nav-list__item-link" href="article.html">Блог</a></li>
+              <li class="nav-list__item"><a class="nav-list__item-link" href="tour.html"> Туры</a></li>
+            </ul>
+          </nav>
+          <div class="user__nav">
+            <ul class="user__nav-list">
+              <li class="user__nav-list__item">
+                <button class="user__nav-btn"><img class="user__nav-img" src="img/user.svg" alt="Account"></button>
+              </li>
+              <li class="user__nav-list__item">
+                <button class="user__nav-btn"><img class="user__nav-img" src="img/cart.svg" alt="Cart"></button>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </main>
+    </header>
+    <main class="main"></main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__copyright">© Pug 2020</div>
+      </div>
+    </footer>
   </body>
 </html>

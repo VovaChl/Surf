@@ -1,0 +1,16 @@
+header.header
+	.container
+		.header__flex
+			.header__logo.logo
+				img(src="img/logo.svg", alt="Serf").logo__img
+				img(src="img/text-logo.svg", alt="Serf").text__logo
+			nav.header__nav
+				ul.header__nav-list
+					li.nav-list__item: a(href="catalog.html").nav-list__item-link Каталог
+					li.nav-list__item: a(href="about.html").nav-list__item-link  О нас
+					li.nav-list__item: a(href="article.html").nav-list__item-link Блог
+					li.nav-list__item: a(href="tour.html").nav-list__item-link  Туры
+			.user__nav
+				ul.user__nav-list
+					li.user__nav-list__item: button.user__nav-btn: img(src="img/user.svg", alt="Account").user__nav-img
+					li.user__nav-list__item: button.user__nav-btn: img(src="img/cart.svg", alt="Cart").user__nav-img
